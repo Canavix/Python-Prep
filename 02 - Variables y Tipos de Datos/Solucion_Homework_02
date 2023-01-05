@@ -1,2 +1,110 @@
-num = 9
-print(num)
+#Punto 1
+num1 = 9
+print(num1)
+
+#Punto 2
+print(8.5)
+
+#Punto 3
+print(type(num1))
+
+#Punto 4
+name = 'Camilo'
+
+#Punto 5
+complejo = 5j
+
+#punto 6
+print(type(complejo))
+
+#Punto 7
+pi = 3.1416
+
+#Punto 8
+var1 = 'True'
+var2 =  True
+
+#Punto 9
+print(type(var1))
+print(type(var2))
+
+#Punto 10
+suma = 5 + 3.1416
+
+#Punto 11
+num11 = 5j + 3j
+
+#Punto 12
+num12 = 3.5 + 5j
+
+#Punto 13
+num13 = 3*4
+
+#Punto 14
+print(2**8)
+
+#Punto 15
+num15 = 27/4
+print(num15)
+
+#Punto 16
+num16 = 27//4
+print(num16)
+
+#Punto 17
+num17 = 27%4
+print(num17)
+
+#Punto 18
+num18 = (num16 * 4) + num17
+print(num18)
+
+#Punto 19
+firstName = 'Camilo'
+lastName = 'Cañaveral'
+fullName = firstName + ' ' + lastName
+print(fullName)
+
+#Punto 20
+dato1 = '2'
+dato2 = 2
+print(dato1 == dato2)
+
+#Punto 21
+dato1 = int(dato1)
+print(dato1 == dato2)
+
+#Punto 22
+a = float('3.8')
+#El error resulta del punto decimal, ya que allí se encuentra es una coma (,) y no un punto (.)
+
+#Punto 23
+num23 = 3
+num23-=7
+print(num23)
+
+#Punto 24
+print( 1<<2 )
+"""
+Hace un desplazamiento bit a bit de la siguiente manera
+1 = 0001
+2 = 0010
+
+0001 << 0010
+Por ende, desplaza los bits del operando de la izquierda, el número de veces que indica el operando de la derecha.
+El desplazamiento se hace hacia la izquierda.
+
+En consecuencia, el resultante es 0100, que es igual a 4
+
+"""
+
+#Punto 25
+#print(2+'2')
+#Ambos datos son de diferente tipo, por ende, no deja sumarlos, para ello, habría que hacer un casting
+
+#Punto 26
+entero = 10
+letra = '15'
+
+resultado = entero + int(letra)
+print(resultado)
